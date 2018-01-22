@@ -17,39 +17,37 @@ namespace MenuPlanner.App.Tests.Controllers
 		public void Get()
 		{
 			// Arrange
-			ValuesController controller = new ValuesController();
+			DishController controller = new DishController();
 
 			// Act
-			IEnumerable<string> result = controller.Get();
+			var result = controller.Get();
 
 			// Assert
 			Assert.IsNotNull( result );
-			Assert.AreEqual( 2, result.Count() );
-			Assert.AreEqual( "value1", result.ElementAt( 0 ) );
-			Assert.AreEqual( "value2", result.ElementAt( 1 ) );
+			Assert.AreEqual( 1, result.Count() );
 		}
 
 		[TestMethod]
 		public void GetById()
 		{
 			// Arrange
-			ValuesController controller = new ValuesController();
+			DishController controller = new DishController();
 
 			// Act
-			string result = controller.Get( 5 );
+			var result = controller.Get( "5" );
 
 			// Assert
-			Assert.AreEqual( "value", result );
+			//Assert.AreEqual( "value", result );
 		}
 
 		[TestMethod]
 		public void Post()
 		{
 			// Arrange
-			ValuesController controller = new ValuesController();
+			DishController controller = new DishController();
 
 			// Act
-			controller.Post( "value" );
+			//controller.Post( "value" );
 
 			// Assert
 		}
@@ -58,10 +56,10 @@ namespace MenuPlanner.App.Tests.Controllers
 		public void Put()
 		{
 			// Arrange
-			ValuesController controller = new ValuesController();
+			DishController controller = new DishController();
 
 			// Act
-			controller.Put( 5, "value" );
+			//controller.Put( 5, "value" );
 
 			// Assert
 		}
@@ -70,10 +68,10 @@ namespace MenuPlanner.App.Tests.Controllers
 		public void Delete()
 		{
 			// Arrange
-			ValuesController controller = new ValuesController();
+			DishController controller = new DishController();
 
 			// Act
-			controller.Delete( 5 );
+			//controller.Delete( 5 );
 
 			// Assert
 		}

@@ -113,6 +113,10 @@
       <Project>{90E36175-4DC5-46AF-90EB-BD0A8DF9F788}</Project>
       <Name>MenuPlanner.App</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MenuPlanner.Messages\MenuPlanner.Messages.csproj">
+      <Project>{7ea06a38-7463-4889-83e0-3b91d9a7dae4}</Project>
+      <Name>MenuPlanner.Messages</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

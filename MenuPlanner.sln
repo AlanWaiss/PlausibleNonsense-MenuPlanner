@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuPlanner.Messages", "MenuPlanner.Messages\MenuPlanner.Messages.csproj", "{7EA06A38-7463-4889-83E0-3B91D9A7DAE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuPlanner.Messages", "MenuPlanner.Messages\MenuPlanner.Messages.csproj", "{7EA06A38-7463-4889-83E0-3B91D9A7DAE4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuPlanner.App", "MenuPlanner.App\MenuPlanner.App.csproj", "{90E36175-4DC5-46AF-90EB-BD0A8DF9F788}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuPlanner.App.Tests", "MenuPlanner.App.Tests\MenuPlanner.App.Tests.csproj", "{6AC9A5CE-4EE5-461A-8929-04CAECBB5980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuPlanner.Services", "MenuPlanner.Services\MenuPlanner.Services.csproj", "{9D5D843A-0D65-47ED-B87F-ECAC67B68C30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6AC9A5CE-4EE5-461A-8929-04CAECBB5980}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AC9A5CE-4EE5-461A-8929-04CAECBB5980}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AC9A5CE-4EE5-461A-8929-04CAECBB5980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D5D843A-0D65-47ED-B87F-ECAC67B68C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5D843A-0D65-47ED-B87F-ECAC67B68C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5D843A-0D65-47ED-B87F-ECAC67B68C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5D843A-0D65-47ED-B87F-ECAC67B68C30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

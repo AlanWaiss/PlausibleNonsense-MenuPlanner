@@ -23,7 +23,7 @@ namespace MenuPlanner.Messages
 		[JsonProperty( "dishes" )]
 		public List<MealDish> Dishes
 		{
-			get => (_Dishes ?? (_Dishes = new List<MealDish>()));
+			get => _Dishes ?? (_Dishes = new List<MealDish>());
 			set => _Dishes = value ?? new List<MealDish>();
 		}
 	}
